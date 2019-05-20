@@ -15,6 +15,7 @@ Encore
     .enableVersioning(Encore.isProduction())
 
     .enableReactPreset()
+    .enableSassLoader()
 
     // uncomment to define the assets of the project
     .addEntry('js/app', './assets/js/app.js')
